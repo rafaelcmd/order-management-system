@@ -6,8 +6,25 @@ services:
     container_name: order-management-api
     ports:
       - "5000:5000"
+    env_file:
+      - .env
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - db
+    networks:
+      - app-network
+        
+  db:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    container_name: order-management-db
+    ports:
+      - "1440:1433"
+    environment:
+      SA_PASSWORD: "YourStrongPassword123!"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - /db-data:/var/opt/mssql
     networks:
       - app-network
 

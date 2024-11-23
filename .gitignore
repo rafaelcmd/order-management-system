@@ -1,6 +1,6 @@
 # Compiled binaries
-/bin/
-/obj/
+OrderManagementAPI/bin/
+OrderManagementAPI/obj/
 /publish/
 /out/
 
@@ -57,3 +57,7 @@ _ReSharper*/
 *.bak
 ~$*
 *.swp
+
+# Rider project metadata
+*.rider.project.model.nuget.info
+*.rider.project.model.nuget.cache
