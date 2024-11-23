@@ -1,0 +1,59 @@
+# Compiled binaries
+/bin/
+/obj/
+/publish/
+/out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and database
+*.log
+*.sql
+*.sqlite
+
+# VS Code
+.vscode/
+.vscode/*
+
+# Rider
+.idea/
+.idea/*
+
+# Visual Studio
+.vs/
+.vs/*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+*.env
+.env.*
+*.override.yml
+
+# Packages
+*.nupkg
+*.snupkg
+
+# Environment files
+.env
+
+# Resharper
+_ReSharper*/ 
+*.DotSettings.user
+
+# Other
+*.temp
+*.bak
+~$*
+*.swp
