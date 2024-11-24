@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using OrderManagement.Application.Orchestrators;
 
-namespace OrderManagementAPI.Controllers;
+namespace OrderManagement.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

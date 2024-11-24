@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Domain", "O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Infrastructure", "OrderManagement.Infrastructure\OrderManagement.Infrastructure.csproj", "{A8CFB10C-FB90-4BAD-BBDD-FDBD0105D049}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagementAPI", "OrderManagementAPI\OrderManagementAPI.csproj", "{1E3709FA-C59D-4214-840B-A7D3CA2FBBEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.API", "OrderManagement.API\OrderManagement.API.csproj", "{1E3709FA-C59D-4214-840B-A7D3CA2FBBEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

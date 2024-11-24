@@ -5,11 +5,8 @@ OrderManagement.Domain/bin/
 OrderManagement.Domain/obj/
 OrderManagement.Infrastructure/bin/
 OrderManagement.Infrastructure/obj/
-OrderManagementAPI/bin/
-OrderManagementAPI/obj/
-obj/
-publish/
-out/
+OrderManagement.API/bin/
+OrderManagement.API/obj/
 
 # User-specific files
 *.user
