@@ -1,8 +1,15 @@
 # Compiled binaries
+OrderManagement.Application/bin/
+OrderManagement.Application/obj/
+OrderManagement.Domain/bin/
+OrderManagement.Domain/obj/
+OrderManagement.Infrastructure/bin/
+OrderManagement.Infrastructure/obj/
 OrderManagementAPI/bin/
 OrderManagementAPI/obj/
-/publish/
-/out/
+obj/
+publish/
+out/
 
 # User-specific files
 *.user
